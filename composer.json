@@ -1,0 +1,19 @@
+{
+    "name": "softnex/easy-soap",
+    "type": "lib",
+    "description": "biblioteca easysoap do Luís",
+    "license": "BSD-2-Clause",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/axmachado/php-annotations.git"
+        }
+    ],
+    "require": {
+        "softnex/php-annotations": "1.1.*@stable"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+}
