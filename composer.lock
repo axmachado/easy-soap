@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "01064f23305eb1bd803ceff9173b56a1",
+    "packages": [
+        {
+            "name": "softnex/php-annotations",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/axmachado/php-annotations.git",
+                "reference": "9ef5cea2361aa21726ff3390f9c2415d2cf215f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/axmachado/php-annotations/zipball/9ef5cea2361aa21726ff3390f9c2415d2cf215f2",
+                "reference": "9ef5cea2361aa21726ff3390f9c2415d2cf215f2",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src"
+                }
+            },
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Rasmus Schultz",
+                    "email": "rasmus@mindplay.dk"
+                },
+                {
+                    "name": "Luís Otávio Cobucci Oblonczyk",
+                    "email": "lcobucci@gmail.com"
+                },
+                {
+                    "name": "Alexandre Machado",
+                    "email": "alexandre@softnex.com.br"
+                }
+            ],
+            "description": "PHP Annotations modificado pelo Luis.",
+            "support": {
+                "source": "https://github.com/axmachado/php-annotations/tree/1.1.1"
+            },
+            "time": "2014-11-10 14:46:36"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "softnex/php-annotations": 0
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
